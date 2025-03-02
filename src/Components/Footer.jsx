@@ -12,7 +12,7 @@ export const Footer = () => {
     <footer>
     <div className="contenedor-contacto">
         <p className="texto-contacto">Contáctame para iniciar tu proyecto de desarrollo web</p>
-        <a className="enlace-email" href="mailto:wilberdelfinhernandezpena19@gmail.com">Contacto <i className="bi bi-envelope-check-fill"></i></a>
+        <a className="enlace-email" href="mailto:wilberdhp.dev@gmail.com">Contacto <i className="bi bi-envelope-check-fill"></i></a>
     </div>
     <div className="contenedor-redes-sociales">
         <RedesSociales href="https://github.com/wilberdhp" iconClassName="bi bi-github" />
