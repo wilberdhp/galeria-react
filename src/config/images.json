@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "clase": "imagen-vertical",
+    "src": "./images/cowboy-fantart.jpeg",    
+    "alt": "cowboy-fantart",
+    "categorias": ["Fan Art", "Videojuegos"],
+    "descripcion": "Fan Art de Red Read Redemption"
+  },
+  {
+    "id": 2,
+    "clase": "imagen-horizontal",
+    "src": "./images/fantart-2.jpeg",
+    "alt": "",
+    "categorias": ["Paisaje", "Fan Art"],
+    "descripcion": "Aesthetic Concept Art"
+  },
+  {
+    "id": 3,
+    "clase": "imagen-horizontal",
+    "src": "./images/fantart.jpeg",
+    "alt": "",
+    "categorias": ["Fan Art"],
+    "descripcion": "Anime Aesthetic Concept Scenery"
+  },
+  {
+    "id": 4,
+    "clase": "imagen-vertical",
+    "src": "./images/god-of-war-videojuego.jpeg",
+    "alt": "",
+    "categorias": ["Videojuegos"],
+    "descripcion": "Kratos - God of War"
+  },
+  {
+    "id": 5,
+    "clase": "imagen-vertical",
+    "src": "./images/playa-paisaje-1.jpeg",
+    "alt": "",
+    "categorias": ["Paisaje"],
+    "descripcion": "Playa"
+  },
+  {
+    "id": 6,
+    "clase": "imagen-vertical",
+    "src": "./images/playa-paisaje-2.jpeg",
+    "alt": "",
+    "categorias": ["Paisaje"],
+    "descripcion": "Playa"
+  },
+  {
+    "id": 7,
+    "clase": "imagen-vertical",
+    "src": "./images/playa-paisaje-3.jpeg",
+    "alt": "",
+    "categorias": ["Paisaje"],
+    "descripcion": "Playa"
+  },
+  {
+    "id": 8,
+    "clase": "imagen-vertical",
+    "src": "./images/playa-paisaje-4.jpeg",
+    "alt": "",
+    "categorias": ["Paisaje"],
+    "descripcion": "Playa"
+  },
+  {
+    "id": 9,
+    "clase": "imagen-vertical",
+    "src": "./images/lara-croft-tomb-raider.jpeg",
+    "alt": "",
+    "categorias": ["Videojuegos"],
+    "descripcion": "Lara Croft - Tomb Raider"
+  },
+  {
+    "id": 10,
+    "clase": "imagen-vertical",
+    "src": "./images/the-last-of-us-videojuego.jpeg",
+    "alt": "",
+    "categorias": ["Videojuegos"],
+    "descripcion": "Ellie - The Last of Us II"
+  },
+  {
+    "id": 11,
+    "clase": "imagen-vertical",
+    "src": "./images/the-witcher-videojuego.jpeg",
+    "alt": "",
+    "categorias": ["Videojuegos", "Fan Art"],
+    "descripcion": "Fan Art de Gerard - The Witcher"
+  },
+  {
+    "id": 12,
+    "clase": "imagen-vertical",
+    "src": "./images/uncharted-videojuego.jpeg",
+    "alt": "",
+    "categorias": ["Videojuegos", "Fan Art"],
+    "descripcion": "Nathan Drake - Uncharted"
+  }
+]

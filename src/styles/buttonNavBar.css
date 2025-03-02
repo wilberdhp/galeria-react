@@ -1,0 +1,8 @@
+.boton-nav-bar {
+  font-weight: 700 !important;
+  transition: .4s ease-in-out !important;
+  -webkit-transition: .4s ease-in-out !important;
+  -moz-transition: .4s ease-in-out !important;
+  -ms-transition: .4s ease-in-out !important;
+  -o-transition: .4s ease-in-out !important;
+}

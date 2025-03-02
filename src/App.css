@@ -1,0 +1,93 @@
+.titulo {
+  margin-top: 20px;
+  font-size: 70px;
+}
+
+/* Barra de navegación */
+
+nav {
+  margin-top: 50px;
+}
+
+.contenedor-elementos-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+ul {
+  padding: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+
+
+/* Contenedor de las imagenes */
+
+.contenedor-principal {
+  border: 2px solid rgb(32, 29, 29);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 100%;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+/* Animaciones de la imagenes */
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.imagen {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 25% cover 40%;
+  animation-fill-mode: both;
+}
+
+
+/* Breakpoints -- Media Query's*/
+
+@media (max-width: 320px) {
+  .imagen {
+    width: 290px;
+    height: 370px;
+  }
+
+  .imagen:hover {
+    width: 310px;
+    height: 390px;
+  }
+
+  .titulo {
+    font-size: 60px;
+  }
+}
